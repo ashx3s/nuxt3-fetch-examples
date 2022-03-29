@@ -1,9 +1,9 @@
 <template>
   <div>
     <h1>TV Shows</h1>
-    <form @submit.prevent="searchShows">
+    <form @submit.prevent="searchShows()">
       <input type="text" v-model="searchString" />
-      <button type="submit">Search for Shows</button>
+      <button>Search for Shows</button>
     </form>
     <!-- Display Content -->
     <div>

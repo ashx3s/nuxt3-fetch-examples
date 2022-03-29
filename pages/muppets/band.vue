@@ -1,9 +1,7 @@
 <template>
   <div>
-    <NuxtPage />
+    <h1>The Muppets Band Page</h1>
   </div>
 </template>
 
 <script setup></script>
-
-<style lang="scss" scoped></style>
