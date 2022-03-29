@@ -6,7 +6,7 @@ export default defineNuxtConfig({
     [
       "@storyblok/nuxt",
       {
-        accessToken: "Jxb8ApKoCwmGNrfYsbl8rwtt",
+        accessToken: process.env.STORYBLOK_API_KEY,
       },
     ],
   ],
